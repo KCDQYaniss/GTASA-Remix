@@ -1,0 +1,95 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/Metal011_1K-PNG_Color.a.rtex.dds",
+            "source_hash": "be1855415a6ab9d1e145ea94c1a2bc361e516c78",
+            "target_url": "./textures/Metal011_1K-PNG_Color.a.rtex.dds",
+            "target_hash": "be1855415a6ab9d1e145ea94c1a2bc361e516c78"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/Metal011_1K-PNG_Metalness.m.rtex.dds",
+            "source_hash": "9014df49dd9807708cb30c31c2e7263a6e8307aa",
+            "target_url": "./textures/Metal011_1K-PNG_Metalness.m.rtex.dds",
+            "target_hash": "9014df49dd9807708cb30c31c2e7263a6e8307aa"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/Metal011_1K-PNG_Roughness.r.rtex.dds",
+            "source_hash": "7f77d4333b160b2aaa130f6366cc005c85af11a1",
+            "target_url": "./textures/Metal011_1K-PNG_Roughness.r.rtex.dds",
+            "target_hash": "7f77d4333b160b2aaa130f6366cc005c85af11a1"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/PaintedMetal008_2K-JPG_Color.a.rtex.dds",
+            "source_hash": "3f076bfbf022c9a2330707fe9407471c6fe89b45",
+            "target_url": "./textures/PaintedMetal008_2K-JPG_Color.a.rtex.dds",
+            "target_hash": "3f076bfbf022c9a2330707fe9407471c6fe89b45"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/PaintedMetal008_2K-JPG_Metalness.m.rtex.dds",
+            "source_hash": "c2d74e25f38e23a86e1c8aa053e563e21699d724",
+            "target_url": "./textures/PaintedMetal008_2K-JPG_Metalness.m.rtex.dds",
+            "target_hash": "c2d74e25f38e23a86e1c8aa053e563e21699d724"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/firehydrant/testingest/meshes/textures/PaintedMetal008_2K-JPG_Roughness.r.rtex.dds",
+            "source_hash": "d9fe8d93810db8435d73ee23ea9745819ac8d294",
+            "target_url": "./textures/PaintedMetal008_2K-JPG_Roughness.r.rtex.dds",
+            "target_hash": "d9fe8d93810db8435d73ee23ea9745819ac8d294"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/Palm/textures/Bark004_4K-JPG_Color.a.rtex.dds",
+            "source_hash": "d473ed13661588ff60c6cc71907b2f8fa9b11cfe",
+            "target_url": "./textures/Bark004_4K-JPG_Color.a.rtex.dds",
+            "target_hash": "d473ed13661588ff60c6cc71907b2f8fa9b11cfe"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/Palm/textures/woDeSky_diffuse.a.rtex.dds",
+            "source_hash": "e679684cb0d2667a1d3f3388336f69827af7a83d",
+            "target_url": "./textures/woDeSky_diffuse.a.rtex.dds",
+            "target_hash": "e679684cb0d2667a1d3f3388336f69827af7a83d"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/tree3/meshes/treeidkwhichone_1.usd",
+            "source_hash": "e3622a5eb467c87b8ec2e11ffc1f6b8e3a157e46",
+            "target_url": "./treeidkwhichone_1.usd",
+            "target_hash": "e3622a5eb467c87b8ec2e11ffc1f6b8e3a157e46"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/tree3/meshes/textures/Bark001_2K-JPG_Color.a.rtex.dds",
+            "source_hash": "507b74beca443786bee311ba2059082b92be49f9",
+            "target_url": "./textures/Bark001_2K-JPG_Color.a.rtex.dds",
+            "target_hash": "507b74beca443786bee311ba2059082b92be49f9"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/tree3/meshes/textures/Bark001_2K-JPG_Roughness.r.rtex.dds",
+            "source_hash": "870d0cd9b82d9fa7ffed25ad49a2b4a277a398e5",
+            "target_url": "./textures/Bark001_2K-JPG_Roughness.r.rtex.dds",
+            "target_hash": "870d0cd9b82d9fa7ffed25ad49a2b4a277a398e5"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/meshes/Trees/tree3/meshes/textures/ee_diffuseOriginal.a.rtex.dds",
+            "source_hash": "32870951513f56715fbd92fa2452b64728672e8a",
+            "target_url": "./textures/ee_diffuseOriginal.a.rtex.dds",
+            "target_hash": "32870951513f56715fbd92fa2452b64728672e8a"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/Interiors/247n1/Ingested/oilbottleshelf.usd",
+            "source_hash": "5f986df32c45e437509f50a07e2b6d5f74a83e15",
+            "target_url": "./oilbottleshelf.usd",
+            "target_hash": "5f986df32c45e437509f50a07e2b6d5f74a83e15"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/Interiors/247n1/Ingested/SubUSDs/textures/Plastic007_1K-JPG_Color.a.rtex.dds",
+            "source_hash": "647aa88af956e94540ab1a3128c04dc4f8511484",
+            "target_url": "./SubUSDs/textures/Plastic007_1K-JPG_Color.a.rtex.dds",
+            "target_hash": "647aa88af956e94540ab1a3128c04dc4f8511484"
+        },
+        {
+            "source_url": "C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix-perftest/Interiors/247n1/Ingested/SubUSDs/textures/attachment_37446318-transformed.a.rtex.dds",
+            "source_hash": "9209a72370c2e02054e871b889db749df1e6ca51",
+            "target_url": "./SubUSDs/textures/attachment_37446318-transformed.a.rtex.dds",
+            "target_hash": "9209a72370c2e02054e871b889db749df1e6ca51"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_FCF137F11A0005EA" (
+            references = None
+        )
+        {
+            def Xform "ref_1bbda0a53ffe46a4bf042c0205ad9ec3" (
+                prepend references = @C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix/meshes/Trees/Palm/palmtree.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "palmtree"
+                        {
+                            over "Cylinder_015_Cylinder_016"
+                            {
+                                float3 xformOp:rotateXYZ = (0, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (0, 0, 0)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+
+                        over "Looks"
+                        {
+                            over "Bark"
+                            {
+                                over "Shader"
+                                {
+                                    asset inputs:height_texture = @C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix/meshes/Trees/Palm/textures/Bark004_4K-JPG_Displacement.a.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Displacement"
+                                        displayName = "Height Map"
+                                        doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
+This parameter is unused."""
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:normalmap_texture = @C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix/meshes/Trees/Palm/textures/Bark004_4K-JPG_NormalDX.n.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Normal Map"
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                    asset inputs:reflectionroughness_texture = @C:/Users/Yaniss/Documents/ui/GTASA/rtx-remix/mods/SARemix/meshes/Trees/Palm/textures/Bark004_4K-JPG_Roughness.r.rtex.dds@ (
+                                        colorSpace = "auto"
+                                        customData = {
+                                            asset default = @@
+                                        }
+                                        displayGroup = "Base Material"
+                                        displayName = "Roughness Map"
+                                        doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
+                                        hidden = false
+                                        renderType = "texture_2d"
+                                    )
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_38292DC55A29C969" (
+            references = None
+        )
+        {
+        }
+    }
+}
+

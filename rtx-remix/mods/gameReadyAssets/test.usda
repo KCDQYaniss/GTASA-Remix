@@ -1,0 +1,217 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_0627F7D289C13A04"
+        {
+            def Xform "fence_02_0" (
+                prepend references = @./meshes/props/Fence/fence_02.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_0DEF220833672414"
+        {
+            def Xform "fence_01_0" (
+                prepend references = @./meshes/props/Fence/fence_01.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+        }
+
+        over "mesh_40B3F2C92435F6A9"
+        {
+            def Material "fern"
+            {
+                token outputs:mdl:displacement.connect = </RootNode/meshes/mesh_40B3F2C92435F6A9/fern/Shader.outputs:out>
+                token outputs:mdl:surface.connect = </RootNode/meshes/mesh_40B3F2C92435F6A9/fern/Shader.outputs:out>
+                token outputs:mdl:volume.connect = </RootNode/meshes/mesh_40B3F2C92435F6A9/fern/Shader.outputs:out>
+
+                def Shader "Shader"
+                {
+                    uniform token info:implementationSource = "sourceAsset"
+                    uniform asset info:mdl:sourceAsset = @./materials/AperturePBR_Opacity.mdl@
+                    uniform token info:mdl:sourceAsset:subIdentifier = "AperturePBR_Opacity"
+                    asset inputs:diffuse_texture = @./meshes/Vegetation/textures/Lady_Fern_wdvlditia_Mid_2K_BaseColor.dds@ (
+                        colorSpace = "auto"
+                        customData = {
+                            asset default = @@
+                        }
+                        displayGroup = "Base Material"
+                        displayName = "Albedo/Opacity Map"
+                        doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
+
+"""
+                        hidden = false
+                        renderType = "texture_2d"
+                    )
+                    asset inputs:normalmap_texture = @./meshes/Vegetation/textures/Lady_Fern_wdvlditia_Mid_2K_Normal.dds@ (
+                        colorSpace = "auto"
+                        customData = {
+                            asset default = @@
+                        }
+                        displayGroup = "Base Material"
+                        displayName = "Normal Map"
+                        hidden = false
+                        renderType = "texture_2d"
+                    )
+                    asset inputs:reflectionroughness_texture = @./meshes/Vegetation/textures/Lady_Fern_wdvlditia_Mid_2K_Roughness.dds@ (
+                        colorSpace = "auto"
+                        customData = {
+                            asset default = @@
+                        }
+                        displayGroup = "Base Material"
+                        displayName = "Roughness Map"
+                        doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
+
+"""
+                        hidden = false
+                        renderType = "texture_2d"
+                    )
+                    token outputs:out (
+                        renderType = "material"
+                    )
+                }
+            }
+
+            over "mesh" (
+                active = false
+            )
+            {
+            }
+
+            def Xform "fern_0" (
+                prepend references = @./meshes/Vegetation/fern.usd@
+            )
+            {
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "_n0qt_VarA_LOD2_033" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = </RootNode/meshes/mesh_40B3F2C92435F6A9/fern> (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+                }
+            }
+        }
+
+        over "mesh_F55EC25A8485CEAB"
+        {
+            over "mesh" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </Looks/Wood066> (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_32508DA30FD758C8"
+        {
+            over "Shader"
+            {
+                color3f inputs:emissive_color_constant = (1, 0.85057914, 0.100000024) (
+                    customData = {
+                        float3 default = (1, 0.1, 0.1)
+                        dictionary range = {
+                            float3 max = (1, 1, 1)
+                            float3 min = (0, 0, 0)
+                        }
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Emissive Color"
+                    doc = """The emissive color when no emissive color texture is specified.
+
+"""
+                    hidden = false
+                    renderType = "color"
+                )
+                float inputs:emissive_intensity = 1 (
+                    customData = {
+                        float default = 40
+                        dictionary range = {
+                            float max = 65504
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Emissive Intensity"
+                    doc = """Intensity of the emission
+
+"""
+                    hidden = false
+                )
+                bool inputs:enable_emission = 1 (
+                    customData = {
+                        bool default = 0
+                    }
+                    displayGroup = "Emission"
+                    displayName = "Enable Emission"
+                    doc = """Enables the emission of light from the material
+
+"""
+                    hidden = false
+                )
+            }
+        }
+    }
+}
+
+def Xform "PaintTool"
+{
+    def Xform "cube_03fc9"
+    {
+        def PointInstancer "pointInstancer"
+        {
+            quath[] orientations = []
+            point3f[] positions = []
+            int[] protoIndices = []
+            prepend rel prototypes = </PaintTool/cube_03fc9/pointInstancer/asset>
+            float3[] scales = []
+
+            def Xform "asset" (
+                kind = "component"
+                prepend references = @https://omniverse-content-production.s3.us-west-2.amazonaws.com/Assets/Extensions/Samples/Paint/cube.usd@
+            )
+            {
+                double3 up_rot_axis = (0, 1, 0)
+            }
+        }
+    }
+}
+

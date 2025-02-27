@@ -25,8 +25,8 @@ over "RootNode"
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -41,8 +41,8 @@ over "RootNode"
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -53,8 +53,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -76,8 +76,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -95,8 +95,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -111,8 +111,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -123,8 +123,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -146,8 +146,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -165,25 +165,22 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
-"""
+                    doc = "The texture specifying the albedo value and the optional opacity value to use in the alpha channel"
                     hidden = false
                     renderType = "texture_2d"
                 )
                 float inputs:displace_in = 0.02 (
                     customData = {
-                        float default = 1
+                        float default = 0.05
                         dictionary range = {
-                            float max = 255
+                            float max = 0.2
                             float min = 0
                         }
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
                     doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
-"""
+This parameter is unused."""
                     hidden = false
                 )
                 asset inputs:height_texture = @./8A04C4005EC0D1C2_height.dds@ (
@@ -194,8 +191,7 @@ This parameter is unused.
                     displayGroup = "Displacement"
                     displayName = "Height Map"
                     doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
-"""
+This parameter is unused."""
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -216,9 +212,7 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
-"""
+                    doc = "A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections."
                     hidden = false
                     renderType = "texture_2d"
                 )
@@ -235,8 +229,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -251,8 +245,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -263,8 +257,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -286,8 +280,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -305,8 +299,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -321,8 +315,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -333,8 +327,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -356,8 +350,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -375,8 +369,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -391,8 +385,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -403,8 +397,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -426,8 +420,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -445,8 +439,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -461,8 +455,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -473,8 +467,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -496,8 +490,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -515,8 +509,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -531,8 +525,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -543,8 +537,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -566,8 +560,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -699,8 +693,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -715,8 +709,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -727,8 +721,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -750,8 +744,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -769,8 +763,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -785,8 +779,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -797,8 +791,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -820,8 +814,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -839,8 +833,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -855,8 +849,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -867,8 +861,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -890,8 +884,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -909,8 +903,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -925,8 +919,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -937,8 +931,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -960,8 +954,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -979,8 +973,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -995,8 +989,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -1007,8 +1001,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -1030,8 +1024,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -1049,8 +1043,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Albedo/Opacity Map"
-                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel
-
+                    doc = """The texture specifying the albedo value and the optional opacity value to use in the alpha channel\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -1065,8 +1059,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Inwards Displacement"
-                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.
-This parameter is unused.
+                    doc = """Ratio of UV width to depth.  If the texture is displayed as 1 meter wide, then a value of 1 means it can be at most 1 meter deep.  A value of 0.1 means that same 1 meter wide quad can be at most 0.1 meters deep.\r
+This parameter is unused.\r
 """
                     hidden = false
                 )
@@ -1077,8 +1071,8 @@ This parameter is unused.
                     }
                     displayGroup = "Displacement"
                     displayName = "Height Map"
-                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.
-This parameter is unused.
+                    doc = """A pixel value of 0 is the lowest point.  A pixel value of 1 will be the highest point.\r
+This parameter is unused.\r
 """
                     hidden = false
                     renderType = "texture_2d"
@@ -1100,8 +1094,8 @@ This parameter is unused.
                     }
                     displayGroup = "Base Material"
                     displayName = "Roughness Map"
-                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.
-
+                    doc = """A single channel texture defining roughness per texel.  Higher roughness values lead to more blurry reflections.\r
+\r
 """
                     hidden = false
                     renderType = "texture_2d"

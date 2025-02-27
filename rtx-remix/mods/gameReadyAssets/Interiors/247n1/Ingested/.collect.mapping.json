@@ -1,0 +1,251 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "E:/Remix_etc/Models/Milkbottle/Milkbottle.usd",
+            "source_hash": "e752a0557b0fcfb62ce89500278f8f9b97d709d5",
+            "target_url": "./Milkbottle.usd",
+            "target_hash": "e9217df5872a49504761a0e8587c95ea0dbeea07"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/conservepack\u00e9.usd",
+            "source_hash": "8356475484d9f8fa7a3ed2137ed94021754941af",
+            "target_url": "./conservepack\u00e9.usd",
+            "target_hash": "abb8fde69441c7ef2b8e2affc57c4f01aac23191"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/textures/419E6E4E20DCDA86-transformed.png",
+            "source_hash": "9243443113c1fc8c9fc8a2fb231434ab21e55fb9",
+            "target_url": "./SubUSDs/textures/419E6E4E20DCDA86-transformed.png",
+            "target_hash": "9243443113c1fc8c9fc8a2fb231434ab21e55fb9"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/textures/Metal044A_2K-JPG_Color.jpg",
+            "source_hash": "a4f8f03fed73e41486295cbab1e35fbea6c72dfd",
+            "target_url": "./SubUSDs/textures/Metal044A_2K-JPG_Color.jpg",
+            "target_hash": "a4f8f03fed73e41486295cbab1e35fbea6c72dfd"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/textures/Metal044A_2K-JPG_Metalness.jpg",
+            "source_hash": "81188b59b142f656ea5df9d4ec1ee42962228ab6",
+            "target_url": "./SubUSDs/textures/Metal044A_2K-JPG_Metalness.jpg",
+            "target_hash": "81188b59b142f656ea5df9d4ec1ee42962228ab6"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/textures/Metal044A_2K-JPG_NormalDX.jpg",
+            "source_hash": "7a0ecd0cf65a250a7a71fc44d1c38afeb325bbd5",
+            "target_url": "./SubUSDs/textures/Metal044A_2K-JPG_NormalDX.jpg",
+            "target_hash": "7a0ecd0cf65a250a7a71fc44d1c38afeb325bbd5"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/Conserve/conservepack.usd",
+            "source_hash": "15b702fc8ae812c6169d37a33631fba759cfc3f9",
+            "target_url": "./conservepack.usd",
+            "target_hash": "a5f1d9d1a8200b21572ac77bd9897713fbe04cff"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/SHELF/shelfnw.usd",
+            "source_hash": "eedcfcf68512ce150b231b1ec6732c03bcaba5aa",
+            "target_url": "./shelfnw.usd",
+            "target_hash": "2b64aa78fdf2c93071f3af082d44f3190f2672fa"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/SHELF/textures/D8EB193C2C5CFD5F_diffuse.png",
+            "source_hash": "69fdb8e6e3490078f8513c20e4b782d0315c9d32",
+            "target_url": "./SubUSDs/textures/D8EB193C2C5CFD5F_diffuse.png",
+            "target_hash": "69fdb8e6e3490078f8513c20e4b782d0315c9d32"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/SHELF/textures/D8EB193C2C5CFD5F_normal_dx.png",
+            "source_hash": "b161a1e3105a2bc99003d894f374beba514efb85",
+            "target_url": "./SubUSDs/textures/D8EB193C2C5CFD5F_normal_dx.png",
+            "target_hash": "b161a1e3105a2bc99003d894f374beba514efb85"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/SHELF/textures/D8EB193C2C5CFD5F_roughness.png",
+            "source_hash": "a7800d18acdac9d6df4a6bbb1090f572e81afa60",
+            "target_url": "./SubUSDs/textures/D8EB193C2C5CFD5F_roughness.png",
+            "target_hash": "a7800d18acdac9d6df4a6bbb1090f572e81afa60"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/vendingmachine.usd",
+            "source_hash": "79e17ee348511199ab296feebce83943166a0b8d",
+            "target_url": "./vendingmachine.usd",
+            "target_hash": "6581304c0676820586ac6d1ef446ba97d18bf5b7"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal061B_1K-JPG_Color.jpg",
+            "source_hash": "0ba4c6301a3f8f0e1b823f4c10001e5d3d463921",
+            "target_url": "./SubUSDs/textures/Metal061B_1K-JPG_Color.jpg",
+            "target_hash": "0ba4c6301a3f8f0e1b823f4c10001e5d3d463921"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal061B_1K-JPG_Metalness.jpg",
+            "source_hash": "53525def4013ad1885b5e0c8d0d805b9957dad2f",
+            "target_url": "./SubUSDs/textures/Metal061B_1K-JPG_Metalness.jpg",
+            "target_hash": "53525def4013ad1885b5e0c8d0d805b9957dad2f"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal061B_1K-JPG_NormalDX.jpg",
+            "source_hash": "fc7b32d23425e131f3bfb80018d956f5d0646d78",
+            "target_url": "./SubUSDs/textures/Metal061B_1K-JPG_NormalDX.jpg",
+            "target_hash": "fc7b32d23425e131f3bfb80018d956f5d0646d78"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Plastic012B_1K-JPG_Color.jpg",
+            "source_hash": "179da160a01d599d044e26eafe54cfdf37383df2",
+            "target_url": "./SubUSDs/textures/Plastic012B_1K-JPG_Color.jpg",
+            "target_hash": "179da160a01d599d044e26eafe54cfdf37383df2"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Plastic012B_1K-JPG_NormalDX.jpg",
+            "source_hash": "7463151508f6a7733e4f80928a10b99f222bdbdf",
+            "target_url": "./SubUSDs/textures/Plastic012B_1K-JPG_NormalDX.jpg",
+            "target_hash": "7463151508f6a7733e4f80928a10b99f222bdbdf"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Plastic012B_1K-JPG_Roughness.jpg",
+            "source_hash": "0a26a1d7eb2c8398c5940d4aa4a2b53f7d43b754",
+            "target_url": "./SubUSDs/textures/Plastic012B_1K-JPG_Roughness.jpg",
+            "target_hash": "0a26a1d7eb2c8398c5940d4aa4a2b53f7d43b754"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/RC2402A-FHW-1.png",
+            "source_hash": "9d04f078b161deb9acb56638b924dc7a11ea911a",
+            "target_url": "./SubUSDs/textures/RC2402A-FHW-1.png",
+            "target_hash": "9d04f078b161deb9acb56638b924dc7a11ea911a"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Vending-Machines.jpg",
+            "source_hash": "0528d781bd2fccc07b6da861af9dbfb0d322153f",
+            "target_url": "./SubUSDs/textures/Vending-Machines.jpg",
+            "target_hash": "0528d781bd2fccc07b6da861af9dbfb0d322153f"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/numpad.png",
+            "source_hash": "dcb9572458eda42ba9b2f2a2a6ca0343e4519a74",
+            "target_url": "./SubUSDs/textures/numpad.png",
+            "target_hash": "dcb9572458eda42ba9b2f2a2a6ca0343e4519a74"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal046B_1K-JPG_Color.jpg",
+            "source_hash": "00c0156266ae73048c98392a15191110c383d8da",
+            "target_url": "./SubUSDs/textures/Metal046B_1K-JPG_Color.jpg",
+            "target_hash": "00c0156266ae73048c98392a15191110c383d8da"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal046B_1K-JPG_Metalness.jpg",
+            "source_hash": "a499ea4cf522257b6485b01b88b38bd513d89315",
+            "target_url": "./SubUSDs/textures/Metal046B_1K-JPG_Metalness.jpg",
+            "target_hash": "a499ea4cf522257b6485b01b88b38bd513d89315"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal046B_1K-JPG_NormalDX.jpg",
+            "source_hash": "0b9179387d24d0a669f8467532e2d682476330b0",
+            "target_url": "./SubUSDs/textures/Metal046B_1K-JPG_NormalDX.jpg",
+            "target_hash": "0b9179387d24d0a669f8467532e2d682476330b0"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal046B_1K-JPG_Roughness.jpg",
+            "source_hash": "9b632668a5fd94fdb5bc148a924a3bc38f97c102",
+            "target_url": "./SubUSDs/textures/Metal046B_1K-JPG_Roughness.jpg",
+            "target_hash": "9b632668a5fd94fdb5bc148a924a3bc38f97c102"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/postitvendingmachine.png",
+            "source_hash": "6078c339ab64e0ea257be29c8620d1d278211097",
+            "target_url": "./SubUSDs/textures/postitvendingmachine.png",
+            "target_hash": "6078c339ab64e0ea257be29c8620d1d278211097"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/numberpad.png",
+            "source_hash": "f98f5480f0826842c715513161c5ae74a355c27e",
+            "target_url": "./SubUSDs/textures/numberpad.png",
+            "target_hash": "f98f5480f0826842c715513161c5ae74a355c27e"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal056B_4K-JPG_Color.jpg",
+            "source_hash": "d91bbc3becb1bc8992afbfd6e7e86687e488866f",
+            "target_url": "./SubUSDs/textures/Metal056B_4K-JPG_Color.jpg",
+            "target_hash": "d91bbc3becb1bc8992afbfd6e7e86687e488866f"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/vendingmachine/textures/Metal061B_1K-JPG_Roughness.jpg",
+            "source_hash": "b5c77e923f3dfe80fee191eb252b0ca9e7e0b28c",
+            "target_url": "./SubUSDs/textures/Metal061B_1K-JPG_Roughness.jpg",
+            "target_hash": "b5c77e923f3dfe80fee191eb252b0ca9e7e0b28c"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/STEAKpack.usd",
+            "source_hash": "2b3c2b85733c0a18f00f3caeac7a3446f8a5a5f1",
+            "target_url": "./STEAKpack.usd",
+            "target_hash": "0a26ca9fd000a64c08556b048076499ed3324bdf"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/GUEST_35a0aacd-bdf8-49c0-ac6e-249431db9646.webp",
+            "source_hash": "03478489458f6dd4c6c3359c8548485e42aee8f3",
+            "target_url": "./SubUSDs/textures/GUEST_35a0aacd-bdf8-49c0-ac6e-249431db9646.webp",
+            "target_hash": "03478489458f6dd4c6c3359c8548485e42aee8f3"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/Styrofoam_001_basecolor.jpg",
+            "source_hash": "9bca089ba605855a9e7e62e619606cf88a9e4d9e",
+            "target_url": "./SubUSDs/textures/Styrofoam_001_basecolor.jpg",
+            "target_hash": "9bca089ba605855a9e7e62e619606cf88a9e4d9e"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/Styrofoam_001_normal.jpg",
+            "source_hash": "36f3cda4140e103e736aa5ee8122d087a5dbe8e7",
+            "target_url": "./SubUSDs/textures/Styrofoam_001_normal.jpg",
+            "target_hash": "36f3cda4140e103e736aa5ee8122d087a5dbe8e7"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/Styrofoam_001_roughness.jpg",
+            "source_hash": "a3063f3303b08c2ddcc1ebe9d4909059071da462",
+            "target_url": "./SubUSDs/textures/Styrofoam_001_roughness.jpg",
+            "target_hash": "a3063f3303b08c2ddcc1ebe9d4909059071da462"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/steak.jpg",
+            "source_hash": "9207993feb6bfbb12f922242a659f122026872d2",
+            "target_url": "./SubUSDs/textures/steak.jpg",
+            "target_hash": "9207993feb6bfbb12f922242a659f122026872d2"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/ICECREAM.usd",
+            "source_hash": "a1b706409eea47190d5de810cd68614afb78a844",
+            "target_url": "./ICECREAM.usd",
+            "target_hash": "84ddc02625b7164a5218f60198e4f35aae55b839"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/textures/09768E065F72249E-transformed.png",
+            "source_hash": "bd6ffb32c6a87e2c04f7fbe2d2c75f75f68799f5",
+            "target_url": "./SubUSDs/textures/09768E065F72249E-transformed.png",
+            "target_hash": "bd6ffb32c6a87e2c04f7fbe2d2c75f75f68799f5"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/oilbottle/oilbottleshelf.usd",
+            "source_hash": "77974114e840365f940d26b8405940852b818fc8",
+            "target_url": "./oilbottleshelf.usd",
+            "target_hash": "e627ccd3071a58c0ef2c5ade0a56eb87e9de7a9a"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/oilbottle/textures/Plastic007_1K-JPG_Color.jpg",
+            "source_hash": "d88658f14d2262eb1f2ede41dd27abe2e5ace95a",
+            "target_url": "./SubUSDs/textures/Plastic007_1K-JPG_Color.jpg",
+            "target_hash": "d88658f14d2262eb1f2ede41dd27abe2e5ace95a"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/oilbottle/textures/Plastic007_1K-JPG_Roughness.jpg",
+            "source_hash": "01f2324ff3b03d2e786533af402735f9e79c0dce",
+            "target_url": "./SubUSDs/textures/Plastic007_1K-JPG_Roughness.jpg",
+            "target_hash": "01f2324ff3b03d2e786533af402735f9e79c0dce"
+        },
+        {
+            "source_url": "E:/Remix_etc/Models/oilbottle/textures/attachment_37446318-transformed.jpeg",
+            "source_hash": "88f98d4bda8ffbfbe6d1ad7c85d90585539ba2c4",
+            "target_url": "./SubUSDs/textures/attachment_37446318-transformed.jpeg",
+            "target_hash": "88f98d4bda8ffbfbe6d1ad7c85d90585539ba2c4"
+        }
+    ]
+}

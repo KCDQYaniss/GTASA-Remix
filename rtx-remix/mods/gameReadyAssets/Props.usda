@@ -1,0 +1,96 @@
+#usda 1.0
+(
+    upAxis = "Z"
+)
+
+over "RootNode"
+{
+    over "meshes"
+    {
+        over "mesh_341F898DA1A95F78" (
+            references = None
+        )
+        {
+            def Xform "ref_3818815257d844aebd23534b21be5d90" (
+                references = @./assets/ingested/firehydrant_13.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (90, 0, 0)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                    over "World"
+                    {
+                        over "firehydrant_13"
+                        {
+                            over "Sphere_005"
+                            {
+                                float3 xformOp:rotateXYZ = (0, 0, 0)
+                                float3 xformOp:scale = (1, 1, 1)
+                                double3 xformOp:translate = (0, 0, 0)
+                                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        over "mesh_C2EE5DE2036A26DE" (
+            references = None
+        )
+        {
+            def Xform "ref_e2c0e66fc0634bdcbcbdb94ab9243cea" (
+                prepend references = @./meshes/props/Fence/meshes/barrier_1.usd@
+            )
+            {
+                custom bool IsRemixRef = 1
+                double3 xformOp:rotateXYZ = (0, 0, 0)
+                double3 xformOp:scale = (1, 1, 1)
+                double3 xformOp:translate = (0, 0, 0)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+
+                over "XForms"
+                {
+                    float3 xformOp:rotateXYZ = (0, 0, 90)
+                    float3 xformOp:scale = (1, 1, 1)
+                    double3 xformOp:translate = (0, 0, 0)
+                    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+                }
+            }
+        }
+    }
+
+    over "Looks"
+    {
+        over "mat_00FD268834832F9E"
+        {
+            over "Shader"
+            {
+                float inputs:reflection_roughness_constant = 0.5 (
+                    customData = {
+                        float default = 0.5
+                        dictionary range = {
+                            float max = 1
+                            float min = 0
+                        }
+                    }
+                    displayGroup = "Base Material"
+                    displayName = "Roughness Amount"
+                    doc = "Higher roughness values lead to more blurry reflections, use 0 for perfectly smooth.  (Used if no texture is specified)."
+                    hidden = false
+                )
+            }
+        }
+    }
+}
+

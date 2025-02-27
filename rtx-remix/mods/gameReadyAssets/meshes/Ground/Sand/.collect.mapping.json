@@ -1,0 +1,11 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "E:/Remix_etc/Models/sand/sand.usd",
+            "source_hash": "294edb263110ff6d35a50512ebec19780800e4fd",
+            "target_url": "./sand.usd",
+            "target_hash": "294edb263110ff6d35a50512ebec19780800e4fd"
+        }
+    ]
+}

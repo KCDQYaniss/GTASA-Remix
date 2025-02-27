@@ -1,24 +1,21 @@
 #usda 1.0
 (
     customLayerData = {
-        string lightspeed_game_name = "SA Remix"
+        string lightspeed_game_name = "GTA: San Andreas | 2560x1440 @ 642 fps"
         string lightspeed_layer_type = "replacement"
-        dictionary navmeshSettings = {
-            double agentHeight = 180
-            double agentRadius = 20
-            bool excludeRigidBodies = 1
-            int ver = 1
-            double voxelCeiling = 460
-        }
+        int refinementOverrideImplVersion = 0
     }
     subLayers = [
+        @./test.usda@,
+        @./texture/sky/sky.usda@,
+        @./light.usda@,
+        @./materials.usda@,
+        @./Interiors/247n1/247n1.usda@,
         @./SARemix.usda@,
-        @./Meshes.usda@,
-        @./texture/effect/Effect.usda@,
-        @./Light.usda@,
-        @./Materials.usda@,
-        @./texture/sky/sky.usda@
+        @./meshes/Trees.usda@,
+        @./Props.usda@
     ]
     timeCodesPerSecond = 24
     upAxis = "Z"
 )
+
