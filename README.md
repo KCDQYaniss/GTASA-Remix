@@ -2,6 +2,8 @@
 
 Welcome to the GTASA RTX-Remix Project! This initiative aims to enhance the GTA San Andreas gaming experience by incorporating advanced RTX technology. Join our vibrant community of modders and enthusiasts as we push the boundaries of visual realism in the world of GTA San Andreas.
 
+EASY METHOD : https://github.com/KCDQYaniss/SARemix-Installer
+
 ## Requirements
 
 To participate in the GTASA RTX-Remix Project, please ensure you have the following:
